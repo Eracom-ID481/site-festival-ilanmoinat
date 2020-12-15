@@ -98,7 +98,7 @@ img {
 }
 
 .container2 {
-    background-color: pink;
+    background-color: white;
     margin: 80px;
 }
 
@@ -113,5 +113,7 @@ img {
 }
 
 .leftside {
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
+
+/*   contant4 */
