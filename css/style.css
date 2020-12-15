@@ -1,20 +1,117 @@
-/* Style des filtres de la grille horraire */
-#jours {
-    padding: 1rem;
+/* body */
+body {
+    font-family: 'Lato', sans-serif;
 }
 
-#jours ul {
+/* titles */
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+/* data */
+table, table * {
+    font-family: 'Lato', monospace;
+}
+
+/* quotes, lists */
+blockquote {
+    font-family: 'Lato', sans-serif;
+}
+
+ul, li {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header */
+img {
+    width: 100%;
+}
+
+.overtitle {
+    width: 50rem;
+    position: relative;
+    padding-top: 6%;
+    text-align: center;
+}
+
+.overtitle img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.overtitle h4, h6 {
+    margin-left: auto;
+    color: #1f1f1f;
+    /*    margin-top: 5rem;
+    color: pink;*/
+}
+
+.overtitle h4 {
+    background-color: #ff4b5c;
+    color: #e0ece4;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/*   contant */
+.row {
     display: flex;
-    justify-content: space-between;
 }
 
-#jours ul li.active,
-#jours ul li:hover {
-    cursor: pointer;
-    text-decoration: underline;
+.row .col {
+    width: 50%;
 }
 
-ul, li, a {
-    background-color: purple;
-    color: purple;
+.leftside, .rightside {
+    min-height: 20vh;
+    width: 100%;
+}
+
+.leftside {
+    background: white;
+    padding-bottom: 153px;
+}
+
+.rightside {
+    background: white;
+}
+
+#img1 {
+    width: 90%;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+.paragraphe {
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+/*   contant2 */
+.paragraphe2 {
+    padding-left: 40px;
+    padding-top: 60px;
+    min-height: 30vh;
+    color: white;
+}
+
+.container2 {
+    background-color: pink;
+    margin: 80px;
+}
+
+.row {
+    padding: 40px;
+}
+
+/*   contant3 */
+.paragraphe3 {
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.leftside {
+    padding-bottom: 5px;
 }
