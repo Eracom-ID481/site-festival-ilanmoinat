@@ -22,7 +22,20 @@ ul, li {
     font-family: 'Lato', sans-serif;
 }
 
-/* Header */
+/*header*/
+.map-container {
+    position: relative;
+}
+
+.map-container .waypoint {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 25%;
+    right: 20%;
+}
+
+/* Header img*/
 img {
     width: 100%;
 }
@@ -48,13 +61,24 @@ img {
     color: pink;*/
 }
 
-.overtitle h4 {
-    background-color: #ff4b5c;
-    color: #e0ece4;
-    font-weight: 500;
-    font-size: 30px;
+/* logo placem*/
+.map-container {
+    position: relative;
 }
 
+.title {
+    width: 120px;
+    height: 220px;
+    position: absolute;
+    bottom: 45%;
+    right: 75%;
+    color: white;
+    background-color: pink;
+    padding-bottom: 15px;
+    padding-right: 17px;
+}
+
+/* map*/
 /*   contant */
 .row {
     display: flex;
@@ -99,11 +123,6 @@ img {
 
 .container2 {
     background-color: white;
-    margin: 80px;
-}
-
-.row {
-    padding: 40px;
 }
 
 /*   contant3 */
@@ -117,3 +136,18 @@ img {
 }
 
 /*   contant4 */
+.leftside4 {
+    color: white;
+    background-color: #ffd369;
+    padding: 30px;
+    margin-left: 130px;
+}
+
+#txt {
+    color: white;
+    background-color: #ffd369;
+}
+
+#blocktext {
+    padding: 150px;
+}
